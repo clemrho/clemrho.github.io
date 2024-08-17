@@ -31,7 +31,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   // margin: 4em 0 0.5em;
   margin-top: 1em;
-  font-size: $type-size-3;
+  font-size: $type-size-2;
+  color: var(--i-berry);
 }
 
 h2 {
@@ -319,15 +320,4 @@ nav {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
-}
-
-:root {
-  --i-berry: #5C0E41;
-  --i-deepblue: #1D58A7;
-  --i-prairie: #006230;
-  --i-lightblue: #009FD4;
-  --i-greyish: #707372;
-  --i-orange: #FF5F05;
-  --i-altgeld: #C84113;
-  background-color: #f2f0ef;
 }

@@ -5,9 +5,9 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 1em;
+  margin-top: 3em;
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 5em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -66,8 +66,32 @@
     border-bottom: 1px solid $border-color;
   }
 
-  p, li, dl {
-    font-size: 1.17em;
+  .h1_nocolor{
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid $border-color;
+    color: #252525;
+  }
+
+  p, li, dl, em {
+    font-size: 1.1em;
+    ul {
+      font-size: 1em;
+    }
+    strong{
+      font-size: 1.1em;
+    }
+  }
+
+  ul li ul li{
+    font-size: 1.1em;
+    strong, em{
+      font-size: 1.1em;
+    }
+  }
+
+  strong {
+    color: #090909;
   }
 
   /* paragraph indents */
