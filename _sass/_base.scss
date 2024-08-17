@@ -320,3 +320,14 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+:root {
+  --i-berry: #5C0E41;
+  --i-deepblue: #1D58A7;
+  --i-prairie: #006230;
+  --i-lightblue: #009FD4;
+  --i-greyish: #707372;
+  --i-orange: #FF5F05;
+  --i-altgeld: #C84113;
+  background-color: #f2f0ef;
+}

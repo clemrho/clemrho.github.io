@@ -11,6 +11,7 @@
 .hidden {
   display: none;
   visibility: hidden;
+  opacity: 0%;
 }
 
 /* for preloading images */
@@ -293,7 +294,7 @@ body:hover .visually-hidden button {
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  background: #fff;
+  background: #305cde;
   margin: auto;
   -webkit-transition: 0.3s;
   transition: 0.3s;
