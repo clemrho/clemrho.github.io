@@ -74,21 +74,15 @@
   }
 
   p, li, dl, em {
-    font-size: 1.1em;
+    font-size: $type-size-normal;
     ul {
       font-size: 1em;
     }
     strong{
-      font-size: 1.1em;
+      font-size: $type-size-normal;
     }
   }
 
-  ul li ul li{
-    font-size: 1.1em;
-    strong, em{
-      font-size: 1.1em;
-    }
-  }
 
   strong {
     color: #090909;
